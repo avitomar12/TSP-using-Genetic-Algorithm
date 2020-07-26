@@ -1,19 +1,16 @@
-# TSP-using-Genetic-Algorithm.
-
-A basic implementation of genetic algorithm for traveling salesman problem
-
-Article about the notebook is published on https://medium.com/thecyphy/travelling-salesman-problem-using-genetic-algorithm-130ab957f165
-
-
 
 ---
 
 **Travelling Salesman Problem using Genetic Algorithm**
 
-
 ---
 
-Travelling salesman problem is a combinatorial optimization problem. Which in terms of problem classification falls into NP-hard problem. A general problem of TSP is "Given a list of cities and the distances between each pair of cities, what is the shortest possible route that visits each city and returns to the origin city?". Here we will be solving this problem using a genetic algorithm in python. It's kind of basic implementation of genetic algorithm.
+A basic implementation of genetic algorithm for traveling salesman problem
+
+
+**Introduction**
+Travelling salesman problem is a combinatorial optimization problem. Which in terms of problem classification falls into NP-hard problem. A general problem of TSP is "Given a list of cities and the distances between each pair of cities, what is the shortest possible route that visits each city and returns to the origin city?". Here we will be solving this problem using a genetic algorithm in python. 
+It's kind of basic implementation of genetic algorithm.
 
 First task to import libraries.
 ```python
@@ -106,4 +103,7 @@ def mutatePopulation(children,mutation_rate):
  ```
 7. Finally, we have one generation of routes. Repeat it until the solution converges.
 I have provided the necessary function that is required for a genetic algorithm.
-Full Notebook of the code is available here
+Full Notebook of the code is available  [Link](http://github.com/avitomar12/TSP-using-Genetic-Algorithm)
+
+Article about the notebook is published on https://medium.com/thecyphy/travelling-salesman-problem-using-genetic-algorithm-130ab957f165
+
